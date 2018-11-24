@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "docker service scale marines=20"

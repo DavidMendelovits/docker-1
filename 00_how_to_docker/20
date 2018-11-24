@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "eval \$(docker-machine env Char)" 
+echo "docker swarm init --advertise-addr \$(docker-machine ip Char)"
+echo "docker swarm join-token worker -q > ~/.worker_token"

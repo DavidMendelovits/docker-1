@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "docker inspect --format '{{ .Config.Env }}' spawning-pool"

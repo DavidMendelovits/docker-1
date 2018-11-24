@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "docker network create --driver overlay overmind"

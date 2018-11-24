@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "docker service create -d \
+--name marines \
+--replicas 2 \
+--network overmind \
+--env OC_USERNAME=sample \
+--env OC_PASSWD=sample \
+42school/marine-squad"

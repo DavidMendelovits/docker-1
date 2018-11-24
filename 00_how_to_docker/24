@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "docker service create \
+--name orbital-command \
+--env RABBITMQ_DEFAULT_USER=sample \
+--env RABBITMQ_DEFAULT_PASS=sample \
+--network overmind \
+rabbitmq"
